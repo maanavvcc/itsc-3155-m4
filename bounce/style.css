@@ -47,3 +47,35 @@
 }
 
 /* TODO 3: Complete the remaining shapes. Hints contained in the README.md file. */
+.square{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #777;
+    z-index: 1;
+    animation: bounce 2s 1s infinite;
+    animation-fill-mode: both;
+}
+
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent;
+	border-right: 5rem solid transparent;
+	border-bottom: 10rem solid #777;
+    z-index: 1;
+    animation: bounce 2s 1s infinite;
+    animation-fill-mode: both;
+}
+
+.hexagon{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #777;
+    z-index: 1;
+    animation: bounce 2s 1s infinite;
+    animation-fill-mode: both;
+}
+.hexagon::before
